@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		31609B4A2AEF083A006A4988 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 31609B492AEF083A006A4988 /* Realm */; };
 		31609B4C2AEF083A006A4988 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 31609B4B2AEF083A006A4988 /* RealmSwift */; };
+		31609B4E2AEF08D5006A4988 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31609B4D2AEF08D5006A4988 /* Task.swift */; };
 		31BFF00A2AEE9AF900C6F627 /* TodoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF0092AEE9AF900C6F627 /* TodoDemoApp.swift */; };
 		31BFF00C2AEE9AF900C6F627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF00B2AEE9AF900C6F627 /* ContentView.swift */; };
 		31BFF00E2AEE9AFA00C6F627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BFF00D2AEE9AFA00C6F627 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31609B4D2AEF08D5006A4988 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		31BFF0062AEE9AF900C6F627 /* TodoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BFF0092AEE9AF900C6F627 /* TodoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDemoApp.swift; sourceTree = "<group>"; };
 		31BFF00B2AEE9AF900C6F627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				31BFF00D2AEE9AFA00C6F627 /* Assets.xcassets */,
 				31BFF00F2AEE9AFA00C6F627 /* Preview Content */,
 				31BFF0292AEEFF1F00C6F627 /* RealmManager.swift */,
+				31609B4D2AEF08D5006A4988 /* Task.swift */,
 			);
 			path = TodoDemo;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31609B4E2AEF08D5006A4988 /* Task.swift in Sources */,
 				31BFF00C2AEE9AF900C6F627 /* ContentView.swift in Sources */,
 				31BFF0212AEEC91300C6F627 /* AddTaskView.swift in Sources */,
 				31BFF0182AEEA2E200C6F627 /* TasksView.swift in Sources */,
