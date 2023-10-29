@@ -13,6 +13,8 @@
 		31BFF0112AEE9AFA00C6F627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BFF0102AEE9AFA00C6F627 /* Preview Assets.xcassets */; };
 		31BFF0182AEEA2E200C6F627 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF0172AEEA2E200C6F627 /* TasksView.swift */; };
 		31BFF01F2AEEC85C00C6F627 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF01E2AEEC85C00C6F627 /* TaskRow.swift */; };
+		31BFF0212AEEC91300C6F627 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF0202AEEC91200C6F627 /* AddTaskView.swift */; };
+		31BFF0232AEECD3A00C6F627 /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BFF0222AEECD3A00C6F627 /* SmallAddButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		31BFF0102AEE9AFA00C6F627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31BFF0172AEEA2E200C6F627 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		31BFF01E2AEEC85C00C6F627 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		31BFF0202AEEC91200C6F627 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		31BFF0222AEECD3A00C6F627 /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			children = (
 				31BFF00B2AEE9AF900C6F627 /* ContentView.swift */,
 				31BFF0172AEEA2E200C6F627 /* TasksView.swift */,
+				31BFF0202AEEC91200C6F627 /* AddTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				31BFF01E2AEEC85C00C6F627 /* TaskRow.swift */,
+				31BFF0222AEECD3A00C6F627 /* SmallAddButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31BFF00C2AEE9AF900C6F627 /* ContentView.swift in Sources */,
+				31BFF0212AEEC91300C6F627 /* AddTaskView.swift in Sources */,
 				31BFF0182AEEA2E200C6F627 /* TasksView.swift in Sources */,
+				31BFF0232AEECD3A00C6F627 /* SmallAddButton.swift in Sources */,
 				31BFF00A2AEE9AF900C6F627 /* TodoDemoApp.swift in Sources */,
 				31BFF01F2AEEC85C00C6F627 /* TaskRow.swift in Sources */,
 			);
