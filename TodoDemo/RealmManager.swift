@@ -10,6 +10,7 @@ import RealmSwift
 
 class RealmManager: ObservableObject {
     private(set) var localRealm: Realm?
+    @Published private(set) var tasks: [Task] = []
     
     init() {
         openRealm()
@@ -34,6 +35,7 @@ class RealmManager: ObservableObject {
                 try localRealm.write {
                     let newTask = Task(value: ["title": taskTitle, "completed": false ])
                     localRealm.add(newTask)
+                    getTasks()
                     print("New task added to Realm! \(newTask)")
                 }
             } catch {
@@ -41,4 +43,16 @@ class RealmManager: ObservableObject {
             }
         }
     }
+    
+    func getTasks() {
+        if let localRealm = localRealm {
+            let allTasks = localRealm.objects(Task.self).sorted(byKeyPath: "completed")
+            tasks = []
+            allTasks.forEach { task in
+                tasks.append(task)
+            }
+        }
+    }
+    
+    
 }
