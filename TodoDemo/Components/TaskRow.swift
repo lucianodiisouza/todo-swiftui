@@ -17,6 +17,7 @@ struct TaskRow: View {
             
             Text(task)
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
